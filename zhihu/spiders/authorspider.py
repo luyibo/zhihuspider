@@ -62,8 +62,8 @@ class Authorspider(CrawlSpider):
                         headers = self.headers,
                         formdata = {
                             '_xsrf' : response.meta['_xsrf'],
-                            'email' : '1428260548@qq.com',
-                            'password' : 'luyibo',
+                            'email' : '*****',
+                            'password' : '*****',
                             'remember_me' : 'true',
                             "captcha": captcha,
                         },
